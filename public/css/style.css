@@ -17,6 +17,12 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .row{
     margin: 0;
 }
@@ -67,9 +73,21 @@ html{
      align-items: flex-start;
  }
 
- .footer{
+ .main_header_right figure img{
+     
+ }
+/* footer code */
+ footer{
      width: 100%;
      background-color: var(--main-bg);
+     margin-top: auto;
+ }
+ footer p{
+     margin: 2rem;
+     text-align: center;
+     color: #fff;
+     line-height: 5rem;
+     font-size: 1.4rem;
  }
 
  
