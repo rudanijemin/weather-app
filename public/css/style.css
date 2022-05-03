@@ -74,7 +74,45 @@ body{
  }
 
  .main_header_right figure img{
+     filter: drop-shadow(0 0.5rem 1rem rgba(0,0,0,0.3));
      
+ }
+
+ /*temp input field style code*/
+ .temp_form{
+     width: 60%;
+     position: relative;
+     margin: 10rem auto 6rem;
+ }
+
+ .temp_form input[type="text"]{
+     width: 100%;
+     padding: 2rem 5rem 2rem 2rem;
+     background: #1e202b;
+     color: #fff;
+     outline: none;
+     border: none;
+     font-size: 1.7rem;
+     border-radius: 3rem;
+
+ }
+
+ .temp_form input[type="submit"]{
+     position: absolute;  /*that means submit test ke near a jayega*/
+     top: 5px;
+     right: 5px;
+     bottom: 5px;
+     border: none;
+     border-radius: 3rem;
+     padding: 0 3rem;
+     background: #0097e6;
+     color: #fff;
+     font-size: 1.6rem
+ }
+
+ .temp_form input[type="submit"]:hover{    /*your aro near the submit and change the color*/
+     color: #0097e6;
+     background-color: #fff;
  }
 
 
