@@ -30,11 +30,11 @@ app.get("/about",(req,res)=>{
 })
 
 app.get("/weather",(req,res)=>{
-    res.send("welcome weather APP");
+    res.render("weather");
 })
 
 app.get("*",(req,res)=>{
-    res.render("404error");
+    res.render("404");
 })
 
 app.listen(port,()=>{
